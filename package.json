@@ -1,0 +1,21 @@
+{
+  "name": "tempestwx-adapter-node",
+  "version": "1.0.0",
+  "description": "an adapter to receive tempestwx station updates over ws and store in sqlite database",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "tempestwx-adapter-node"
+  },
+  "author": "Joshua Butler",
+  "license": "ISC",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "dotenv": "^16.0.3",
+    "sqlite3": "^5.1.4",
+    "websocket": "^1.0.34"
+  }
+}
